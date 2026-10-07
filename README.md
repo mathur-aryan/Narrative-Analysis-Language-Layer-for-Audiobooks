@@ -1,5 +1,5 @@
 ## "Turns any book into a fully dramatized audiobook where every character has their own unique voice"
-[narrativecast_technical_proposal.md](https://github.com/user-attachments/files/33176944/narrativecast_technical_proposal.md)
+[narrativecast_technical_proposal.md](https://github.com/mathur-aryan/Narrative-Analysis-Language-Layer-for-Audiobooks/blob/main/README.md)
 
 # NarrativeCast: Autonomous Multi-Voice Audio Drama Synthesis Engine
 ---

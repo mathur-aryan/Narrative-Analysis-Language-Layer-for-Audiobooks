@@ -1,12 +1,7 @@
-Turns any book into a fully dramatized audiobook where every character has their own unique voice
+## "Turns any book into a fully dramatized audiobook where every character has their own unique voice"
 [narrativecast_technical_proposal.md](https://github.com/user-attachments/files/33176944/narrativecast_technical_proposal.md)
 
 # NarrativeCast: Autonomous Multi-Voice Audio Drama Synthesis Engine
-
-> **Hacktoberfest Hack Day Nagpur × Elevate IIITN — Qualifier Submission**  
-> **Challenge Track:** Track 1 (Best Open-Source AI Project) & Track 2 (Meaningful Open-Weight AI Architecture)  
-> **Repository Policy Compliance:** Qualifier Round (Technical Proposal README only; zero source code / binaries included).
-
 ---
 
 ## 1. Project Name
@@ -94,7 +89,7 @@ NarrativeCast solves the automated dramatization problem through a three-tier de
 NarrativeCast is built exclusively on top of state-of-the-art open-source and open-weight AI architectures:
 
 1. **Primary Reasoning & Attribution Engine:**
-   - **Google Gemma 2 / Gemma 4 Architecture (9B-Instruct & 2B-Instruct quantized via GGUF / AWQ):** Employed for multi-turn conversational discourse tracking, latent speaker identification, tag stripping, and emotional tone extraction.
+   - **Google Gemma 4 Architecture (9B-Instruct & 2B-Instruct quantized via GGUF / AWQ):** Employed for multi-turn conversational discourse tracking, latent speaker identification, tag stripping, and emotional tone extraction.
    - **Mistral 7B Instruct (v0.3) / Qwen 2.5 7B (as alternative interchangeable local backends):** For benchmarking low-resource attribution performance.
 2. **Natural Language Processing & Coreference Harness:**
    - **spaCy (v3.7+) & fastcoref:** Tokenization, dependency parsing, sentence boundary disambiguation (SBD), and antecedent entity cluster extraction.
